@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - LOOPA | Hubungi Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========== HEADER / NAVIGASI ========== -->
+    <header class="header">
+        <div class="container">
+            <div class="logo"><img src="LOGOLOOPA.png" alt="LOOPA Logo"></div>
+            <nav class="navbar">
+                <a href="index.html">Beranda</a>
+                <a href="brand-story.html">Brand Story</a>
+                <a href="proses.html">Proses Daur Ulang</a>
+                <a href="produk.html">Produk</a>
+                <a href="edukasi.html">Edukasi</a>
+                <a href="harga.html">Harga</a>
+                <a href="kontak.html">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== PAGE HEADER ========== -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Hubungi LOOPA</h1>
+            <p>Kami Siap Membantu Anda dengan Pertanyaan, Pesanan, atau Umpan Balik Apapun</p>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT INFO ========== -->
+    <section class="contact-info-section">
+        <div class="container">
+            <h2 class="section-title">Informasi Kontak</h2>
+            <div class="contact-channels">
+                <div class="channel-card">
+                    <h3>📱 WhatsApp</h3>
+                    <p class="channel-highlight">+62 812-3456-7890</p>
+                    <p>Hubungi kami via WhatsApp untuk pertanyaan cepat, pemesanan, atau support pelanggan. Biasanya kami merespon dalam 1-2 jam.</p>
+                    <a href="https://wa.me/628123456789" class="btn-contact-channel" target="_blank">Buka WhatsApp</a>
+                </div>
+
+                <div class="channel-card">
+                    <h3>📲 Instagram</h3>
+                    <p class="channel-highlight">@loopa.id</p>
+                    <p>Follow kami di Instagram untuk update produk terbaru, tips keberlanjutan, dan cerita di balik LOOPA. DM kami untuk pertanyaan atau partnership.</p>
+                    <a href="https://instagram.com/loopa.id" class="btn-contact-channel" target="_blank">Kunjungi Instagram</a>
+                </div>
+
+                <div class="channel-card">
+                    <h3>✉️ Email</h3>
+                    <p class="channel-highlight">hello@loopa.id</p>
+                    <p>Kirim email kami untuk pertanyaan formal, kerjasama bisnis, atau feedback produk. Kami akan merespon dalam 24 jam kerja.</p>
+                    <a href="mailto:hello@loopa.id" class="btn-contact-channel">Kirim Email</a>
+                </div>
+
+                <div class="channel-card">
+                    <h3>🏢 Kantor LOOPA</h3>
+                    <p class="channel-highlight">Jakarta, Indonesia</p>
+                    <p>Berkunjung ke kantor kami untuk melihat showroom produk, berdiskusi langsung, atau kerjasama. Silakan hubungi kami terlebih dahulu untuk appointment.</p>
+                    <a href="kontak.html" class="btn-contact-channel">Minta Alamat</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT FORM ========== -->
+    <section class="contact-form-section">
+        <div class="container">
+            <h2 class="section-title">Kirim Pesan Kepada Kami</h2>
+            <div class="form-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap *</label>
+                        <input type="text" id="name" name="name" placeholder="Contoh: Budi Santoso" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Contoh: budi@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Nomor Telepon (Opsional)</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Contoh: 08123456789">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subjek *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">-- Pilih Subjek --</option>
+                            <option value="pemesanan">Pemesanan Produk</option>
+                            <option value="pertanyaan">Pertanyaan Produk</option>
+                            <option value="pengiriman">Pertanyaan Pengiriman</option>
+                            <option value="komplain">Keluhan / Komplain</option>
+                            <option value="kerjasama">Kerjasama / Partnership</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Pesan *</label>
+                        <textarea id="message" name="message" rows="7" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="agree" name="agree" required>
+                        <label for="agree">Saya setuju dengan syarat dan kebijakan privasi LOOPA</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit-form">Kirim Pesan</button>
+                </form>
+
+                <div class="form-success-message" id="successMessage" style="display: none;">
+                    <h3>✅ Pesan Berhasil Dikirim!</h3>
+                    <p>Terima kasih telah menghubungi LOOPA. Kami akan merespon pesan Anda dalam waktu 24 jam kerja.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQS ========== -->
+    <section class="faqs-section">
+        <div class="container">
+            <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
+            <div class="faqs-grid">
+                <div class="faq-item">
+                    <h3>❓ Berapa lama waktu pengiriman?</h3>
+                    <p>Pengiriman standar membutuhkan 3-5 hari kerja ke seluruh Indonesia. Pengiriman express tersedia dengan waktu 1-2 hari kerja dengan biaya tambahan.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Apakah ada garansi untuk produk?</h3>
+                    <p>Ya, semua produk LOOPA dilengkapi garansi 2 tahun untuk cacat material dan jahitan. Jika produk bermasalah, hubungi kami untuk klaim garansi.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Bagaimana cara melakukan pengembalian produk?</h3>
+                    <p>Jika tidak puas dalam 14 hari pertama, Anda dapat mengembalikan produk untuk pengembalian uang 100% (termasuk biaya pengiriman).</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Apakah bisa custom desain tas?</h3>
+                    <p>Ya, kami menyediakan layanan custom pattern bag. Anda bisa memilih warna, ukuran, dan motif sesuai preferensi. Hubungi kami untuk details.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Bagaimana cara pembayaran?</h3>
+                    <p>Kami menerima transfer bank, e-wallet (GCash, OVO, Dana), dan cicilan tanpa kartu kredit. Pilih metode pembayaran saat checkout.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Apakah ada diskon untuk pembelian dalam jumlah banyak?</h3>
+                    <p>Ya, kami menawarkan diskon untuk pembelian bulk: 5+ tas (10% diskon), 10+ tas (15% diskon). Hubungi kami untuk quote khusus.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Bagaimana dengan pengiriman ke luar negeri?</h3>
+                    <p>Kami sedang mengembangkan layanan pengiriman internasional. Untuk saat ini, hubungi kami melalui email untuk kemungkinan pengiriman khusus.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Apakah bisa menjadi reseller/affiliate LOOPA?</h3>
+                    <p>Ya, kami membuka kesempatan untuk reseller dan affiliate partner. Hubungi kami via email untuk mendiskusikan persyaratan dan benefit program.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ada Pertanyaan Lain?</h2>
+            <p>Jangan ragu untuk menghubungi kami. Tim LOOPA siap membantu Anda kapan saja.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2rem;">
+                <a href="https://wa.me/628123456789" class="btn-cta" target="_blank">Chat WhatsApp</a>
+                <a href="https://instagram.com/loopa.id" class="btn-cta" target="_blank">Follow Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 LOOPA. Mengubah Sampah Plastik Menjadi Tas Berkualitas. Bersama untuk Bumi yang Lebih Hijau.</p>
+        </div>
+    </footer>
+
+    <!-- ========== FORM SCRIPT ========== -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const phone = document.getElementById('phone').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Create WhatsApp message
+            const whatsappMessage = `Halo LOOPA,%0A%0ANama: ${name}%0AEmail: ${email}%0ANo. Telepon: ${phone}%0ASubjek: ${subject}%0A%0APesan:%0A${message}`;
+            
+            // Redirect to WhatsApp
+            window.open(`https://wa.me/628123456789?text=${whatsappMessage}`, '_blank');
+            
+            // Show success message
+            document.getElementById('contactForm').style.display = 'none';
+            document.getElementById('successMessage').style.display = 'block';
+        });
+    </script>
+
+</body>
+</html>
