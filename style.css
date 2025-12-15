@@ -1342,8 +1342,16 @@ body {
 
 .timeline-content img {
     width: 100%;
-    border-radius: 8px;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px;
     margin-top: 1.5rem;
+    box-shadow: 0 8px 16px rgba(61, 122, 49, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.timeline-content img:hover {
+    transform: scale(1.02);
 }
 
 @media (max-width: 768px) {
